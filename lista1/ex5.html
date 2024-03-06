@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 5</title>
+    <script>
+        const custoFabrica = Number(prompt("digite o custo de fábrica do carro"));
+        const porcentagem = Number(prompt("digite a porcentagem do distribuidor"));
+
+        const imposto = Number(prompt("digite o imposto"));
+
+        const lucro = custoFabrica * (porcentagem / 100);
+
+        const valor = custoFabrica * (imposto / 100);
+
+        const custoFinal = custoFabrica + lucro + valor;
+
+        console.log(`o custo final do carro é de R$${custoFinal.toFixed(2)}`);
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

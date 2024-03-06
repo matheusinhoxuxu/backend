@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 6</title>
+
+
+    <script>
+        
+const numeroCarrosVendidos = Number(prompt("Digite o número de carros vendidos: "));
+
+
+const valorTotalVendas = Number(prompt("Digite o valor total das vendas: "));
+
+
+const salarioFixo = Number(prompt("Digite o salário fixo: "));
+
+const comissaoCarroVendido = Number(prompt("Digite o valor da comissão por carro vendido: "));
+
+const comissaoTotal = numeroCarrosVendidos * comissaoCarroVendido;
+
+const porcentagem = valorTotalVendas * 0.05;
+
+
+const salarioFinal = salarioFixo + comissaoTotal + porcentagem;
+
+
+console.log(`O salário final do vendedor é de R$${salarioFinal.toFixed(2)}`);
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
